@@ -1220,6 +1220,22 @@ body {
     background-color: var(--color-dark);
 }
 
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    color: var(--color-light);
+}
+
+a:hover {
+    color: var(--color-light-gray)
+}
+
 .container {
     max-width: calc(var(--container-width)) + var(--var(--container-padding-x)) * 2;
     margin-inline: auto;
@@ -1230,4 +1246,27 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header-menu-list {
+    display: flex;
+    column-gap: 50px;
+}
+
+.header-menu-link {
+    display: inline-flex;
+    align-items: center;
+    height: 90px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
 }
