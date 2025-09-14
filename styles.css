@@ -1209,6 +1209,17 @@
     --container-width: 1300px;
     --container-padding-x: 15px;
 
-    -o-transition-duration: 0.2s;
+    --transition-duration: 0.2s;
 
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-weight: 300;
+    font-size: 16px;
+    background-color: var(--color-dark);
+}
+
+.container {
+    max-width: calc(var(--container-width)) + var(--var(--container-padding-x)) * 2;
 }
