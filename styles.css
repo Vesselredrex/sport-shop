@@ -1190,4 +1190,18 @@
    .footer-subscribe:not(:last-child) {
      margin-bottom: 40px;
    }
-]
+}
+
+:root {
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --color-dark-gray: #404040;
+    --color-light-grey: #c4c4c4;
+
+    --border-radius: 30px;
+    --border: 1px solid var(--color-light);
+
+    --font-family-base: 'Heebo', sans-serif;
+    --font-family-accent: 'Yantramanav', sans-serif;
+
+}
